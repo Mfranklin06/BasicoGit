@@ -109,6 +109,8 @@ Abrir a pasta do projeto e editar o arquivo README.md:
 
 ![Editar README](abrirDir.png)
 
+![tela do readme no code](telaCodeReadme.png)
+
 No code, modificamos o arquivo README.md:
 
 ![Modificar README](modReadme.png)
