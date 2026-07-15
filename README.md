@@ -97,19 +97,39 @@ git push origin main
 
 ![Modificações enviadas](modEnviadas.png)
 
+Assim fica a tela do github com as mudanças feitas:
 
+![Tela com as mudanças](telaRepoReadme.png)
 
-## 11. Fazer alterações e enviar novamente
+## Fazer alterações e enviar novamente
 Depois de editar arquivos, adicione, faça commit e envie as mudanças.
 
+
+Abrir a pasta do projeto e editar o arquivo README.md:
+
+![Editar README](abrirDir.png)
+
+No code, modificamos o arquivo README.md:
+
 ![Modificar README](modReadme.png)
+
+Então, adicionamos a modificação:
+
+![Adicionar modificação](addModReadme.png)
+
+Depois, fazemos o commit da modificação:
 
 ![Commit da modificação](commitModReadme.png)
 
 ![Modificar README commitada](modReadmeCommitada.png)
 
+Com isso, enviamos a modificação para o repositório remoto:
+![Push da modificação](pushModReadme.png)
+
 ![Modificar README enviada](modReadmeEnviada.png)
 
-![Push da modificação](pushModReadme.png)
+Assim fica a tela do GitHub com a modificação feita:
+
+![Tela com a modificação](telaNovoReadme.png)
 
 Esses passos formam o fluxo básico do Git: criar projeto, iniciar o Git, adicionar arquivos, fazer commit e enviar para o GitHub.
