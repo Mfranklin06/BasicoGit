@@ -5,30 +5,30 @@ Este documento apresenta os passos básicos para iniciar um projeto com Git e en
 ## Criar pasta
 Primeiro, crie uma pasta para o projeto.
 
-![criar pasta](CriarPasta.png)
+![criar pasta](public/CriarPasta.png)
 
 ## Acessar a pasta
 Entre na pasta criada.
 
-![ir para a pasta](IrPasta.png)
+![ir para a pasta](public/IrPasta.png)
 
 ## Iniciar o Git
 No terminal, inicialize o Git dentro da pasta.
 
-![Iniciar git](IniciarGit.png)
+![Iniciar git](public/IniciarGit.png)
 
 Depois disso, o Git estará pronto para acompanhar as alterações do projeto.
 
-![Git iniciado](GitIniciado.png)
+![Git iniciado](public/GitIniciado.png)
 
 ## Criar repositório no GitHub
 Acesse o GitHub e crie um novo repositório para o projeto.
 
-![Criar repositório](CriarRepositorio.png)
+![Criar repositório](public/CriarRepositorio.png)
 
 Essa é a tela inicial quando cria-se um repositório
 
-![Tela Inicial](telaRepoInicial.png)
+![Tela Inicial](public/telaRepoInicial.png)
 
 ## Conectar o repositório local ao remoto
 No terminal, adicione o repositório remoto ao projeto local utilizando o seguinte comando:
@@ -37,12 +37,12 @@ No terminal, adicione o repositório remoto ao projeto local utilizando o seguin
 git remote add origin <link-do-repositorio>
 ```
 
-![Adicionar origem remota](addOrigemRemota.png)
+![Adicionar origem remota](public/addOrigemRemota.png)
 
 ## Criar o README
 Crie o arquivo README.md com as informações do projeto.
 
-![Criar README](CriarReadme.png)
+![Criar README](public/CriarReadme.png)
 
 ## Adicionar alteração
 
@@ -56,7 +56,7 @@ git add .
 ```
 esse comando adiciona todos os arquivos, sendo ideal para se utilizar quando eles mudam as mesmas coisas.
 
-![Adicionar README](addArquivo.png)
+![Adicionar README](public/addArquivo.png)
 
 ## Fazer commit
 Crie um commit para salvar as alterações no histórico do Git com o comando:
@@ -65,9 +65,9 @@ Crie um commit para salvar as alterações no histórico do Git com o comando:
 git commit -m "Adiciona README"
 ```
 
-![Commit do arquivo](commitArquivo.png)
+![Commit do arquivo](public/commitArquivo.png)
 
-![Arquivo commitado](ArquivoCommitado.png)
+![Arquivo commitado](public/ArquivoCommitado.png)
 
 ## Trabalhar com branches
 Após commitar, envia-se as alterações para o repositório remoto, mas antes deve-se verificar a branch atual, fazendo:
@@ -76,9 +76,9 @@ Após commitar, envia-se as alterações para o repositório remoto, mas antes d
 git branch
 ```
 
-![Verificar branch](verificarBranch.png)
+![Verificar branch](public/verificarBranch.png)
 
-![Branch verificada](branchVerificada.png)
+![Branch verificada](public/branchVerificada.png)
 
 Se quiser criar uma nova branch:
 
@@ -93,13 +93,13 @@ Assim, quando verificado se está na branch certa, as alterações podem ser env
 git push origin main
 ```
 
-![Push main](pushMain.png)
+![Push main](public/pushMain.png)
 
-![Modificações enviadas](modEnviadas.png)
+![Modificações enviadas](public/modEnviadas.png)
 
 Assim fica a tela do github com as mudanças feitas:
 
-![Tela com as mudanças](telaRepoReadme.png)
+![Tela com as mudanças](public/telaRepoReadme.png)
 
 ## Fazer alterações e enviar novamente
 Depois de editar arquivos, adicione, faça commit e envie as mudanças.
@@ -107,31 +107,31 @@ Depois de editar arquivos, adicione, faça commit e envie as mudanças.
 
 Abrir a pasta do projeto e editar o arquivo README.md:
 
-![Editar README](abrirDir.png)
+![Editar README](public/abrirDir.png)
 
-![tela do readme no code](telaCodeReadme.png)
+![tela do readme no code](public/telaCodeReadme.png)
 
 No code, modificamos o arquivo README.md:
 
-![Modificar README](modReadme.png)
+![Modificar README](public/modReadme.png)
 
 Então, adicionamos a modificação:
 
-![Adicionar modificação](addModReadme.png)
+![Adicionar modificação](public/addModReadme.png)
 
 Depois, fazemos o commit da modificação:
 
-![Commit da modificação](commitModReadme.png)
+![Commit da modificação](public/commitModReadme.png)
 
-![Modificar README commitada](modReadmeCommitada.png)
+![Modificar README commitada](public/modReadmeCommitada.png)
 
 Com isso, enviamos a modificação para o repositório remoto:
-![Push da modificação](pushModReadme.png)
+![Push da modificação](public/pushModReadme.png)
 
-![Modificar README enviada](modReadmeEnviada.png)
+![Modificar README enviada](public/modReadmeEnviada.png)
 
 Assim fica a tela do GitHub com a modificação feita:
 
-![Tela com a modificação](telaNovoReadme.png)
+![Tela com a modificação](public/telaNovoReadme.png)
 
 Esses passos formam o fluxo básico do Git: criar projeto, iniciar o Git, adicionar arquivos, fazer commit e enviar para o GitHub.
