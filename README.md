@@ -2,17 +2,17 @@
 
 Este documento apresenta os passos básicos para iniciar um projeto com Git e enviar as alterações para o GitHub.
 
-## 1. Criar pasta
+## Criar pasta
 Primeiro, crie uma pasta para o projeto.
 
 ![criar pasta](CriarPasta.png)
 
-## 2. Acessar a pasta
+## Acessar a pasta
 Entre na pasta criada.
 
 ![ir para a pasta](IrPasta.png)
 
-## 3. Iniciar o Git
+## Iniciar o Git
 No terminal, inicialize o Git dentro da pasta.
 
 ![Iniciar git](IniciarGit.png)
@@ -21,7 +21,7 @@ Depois disso, o Git estará pronto para acompanhar as alterações do projeto.
 
 ![Git iniciado](GitIniciado.png)
 
-## 4. Criar repositório no GitHub
+## Criar repositório no GitHub
 Acesse o GitHub e crie um novo repositório para o projeto.
 
 ![Criar repositório](CriarRepositorio.png)
@@ -39,10 +39,12 @@ git remote add origin <link-do-repositorio>
 
 ![Adicionar origem remota](addOrigemRemota.png)
 
-## 6. Criar o README
+## Criar o README
 Crie o arquivo README.md com as informações do projeto.
 
 ![Criar README](CriarReadme.png)
+
+## Adicionar alteração
 
 Adicione essa alteração com o comando
 ```bash
@@ -56,7 +58,7 @@ esse comando adiciona todos os arquivos, sendo ideal para se utilizar quando ele
 
 ![Adicionar README](addArquivo.png)
 
-## 8. Fazer commit
+## Fazer commit
 Crie um commit para salvar as alterações no histórico do Git com o comando:
 
 ```bash
@@ -67,19 +69,8 @@ git commit -m "Adiciona README"
 
 ![Arquivo commitado](ArquivoCommitado.png)
 
-## 9. Enviar para o GitHub
-Enviando as alterações para o repositório remoto.
-
-```bash
-git push -u origin main
-```
-
-![Push main](pushMain.png)
-
-![Modificações enviadas](modEnviadas.png)
-
-## 10. Trabalhar com branches
-Para verificar a branch atual, use:
+## Trabalhar com branches
+Após commitar, envia-se as alterações para o repositório remoto, mas antes deve-se verificar a branch atual, fazendo:
 
 ```bash
 git branch
@@ -94,6 +85,19 @@ Se quiser criar uma nova branch:
 ```bash
 git checkout -b nome-da-branch
 ```
+
+## Enviar para o GitHub
+Assim, quando verificado se está na branch certa, as alterações podem ser enviadas para o repositório remoto com o seguinte comando:
+
+```bash
+git push origin main
+```
+
+![Push main](pushMain.png)
+
+![Modificações enviadas](modEnviadas.png)
+
+
 
 ## 11. Fazer alterações e enviar novamente
 Depois de editar arquivos, adicione, faça commit e envie as mudanças.
